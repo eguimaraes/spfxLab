@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "onprem19",
+    "version": "1.10.0",
+    "libraryName": "documentcardexample-webpart",
+    "libraryId": "543c3222-1c94-4b61-9f28-1c9181fb6702",
+    "packageManager": "npm",
+    "componentType": "webpart"
+  }
+}

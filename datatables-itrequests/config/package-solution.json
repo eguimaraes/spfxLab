@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "datatables-itrequests-client-side-solution",
+    "id": "9349aba8-faee-424d-a84d-da18baf1ac3a",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/datatables-itrequests.sppkg"
+  }
+}

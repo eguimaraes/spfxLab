@@ -1,0 +1,44 @@
+{
+  "name": "ex1",
+  "version": "1.0.0",
+  "description": "Exercicio 01",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/http-server -c1 -p 8081",
+    "start": "./node_modules/.bin/http-server -c1 -p 8081",
+    "testeNode": "node ex1.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@microsoft/sp-core-library": "^1.10.0",
+    "@pnp/common": "^2.0.2",
+    "@pnp/graph": "^2.0.2",
+    "@pnp/logging": "^2.0.2",
+    "@pnp/odata": "^2.0.2",
+    "@pnp/sp": "^2.0.2",
+    "@types/angular": "^1.6.57",
+    "@types/jquery": "^2.0.54",
+    "@types/jqueryui": "^1.12.10",
+    "angular": "^1.7.9",
+    "httpserver": "^0.3.0",
+    "jquery": "^2.2.4",
+    "jqueryui": "^1.11.1",
+    "microsoft": "0.0.0",
+    "milsymbol": "^2.0.0",
+    "moment": "^2.24.0",
+    "systemjs": "^6.2.3",
+    "type": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/microsoft-ajax": "0.0.35",
+    "@types/react": "^16.9.19",
+    "@types/react-dom": "^16.9.5",
+    "@types/sharepoint": "^2016.1.8",
+    "gulp": "^4.0.2",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.5",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  }
+}

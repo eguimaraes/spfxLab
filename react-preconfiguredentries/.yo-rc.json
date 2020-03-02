@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "onprem19",
+    "version": "1.10.0",
+    "libraryName": "react-preconfiguredentries",
+    "libraryId": "09b84950-7fb8-4367-87d3-bc65ff2c19f6",
+    "packageManager": "npm",
+    "componentType": "webpart"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "datatables-itrequests-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/datatablesItrequests/DatatablesItrequestsWebPart.js",
+          "manifest": "./src/webparts/datatablesItrequests/DatatablesItrequestsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery": "https://code.jquery.com/jquery-1.12.4.min.js",
+    "datatables.net": "https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js",
+    "moment": "https://momentjs.com/downloads/moment.min.js"
+  },
+  "localizedResources": {
+    "DatatablesItrequestsWebPartStrings": "lib/webparts/datatablesItrequests/loc/{locale}.js"
+  }
+}

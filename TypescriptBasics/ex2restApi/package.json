@@ -1,0 +1,33 @@
+{
+  "name": "ex2restapi",
+  "version": "1.0.0",
+  "description": "Exemplo de App com API rest em TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/ts-node ./server.ts",
+    "watch": "./node_modules/.bin/nodemon -w . --exec \".ts\" --exec \"npm start\""
+  },
+  "author": "EKIS - Edvaldo Guimaraes",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/bluebird": "^3.5.29",
+    "@types/express": "^4.17.2",
+    "@types/node": "^13.7.6",
+    "@types/nodemon": "^1.19.0",
+    "@types/sequelize": "^4.28.8",
+    "@types/validator": "^12.0.1",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "nodemon": "^2.0.2",
+    "pg": "^7.18.2",
+    "reflect-metadata": "^0.1.13",
+    "sequelize": "^5.21.5",
+    "ts-node": "^8.6.2"
+  },
+  "dependencies": {
+    "Express": "^3.0.1",
+    "pg-hstore": "^2.3.3",
+    "typescript": "^3.8.3"
+  }
+}

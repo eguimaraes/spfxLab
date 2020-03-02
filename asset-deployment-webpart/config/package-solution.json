@@ -1,0 +1,28 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "asset-deployment-webpart-client-side-solution",
+    "id": "6690f11b-012f-4268-bc33-3086eb2dd287",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+       "features": [
+      {
+        "title": "asset-deployment-webpart-client-side-solution",
+        "description": "asset-deployment-webpart-client-side-solution",
+        "id": "523fe887-ced5-4036-b564-8dad5c6c6e24", // <-- Update 'id' with a new GUID
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml"
+          ],
+          "elementFiles": [
+            "schema.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/asset-deployment-webpart.sppkg"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "onprem19",
+    "version": "1.10.0",
+    "libraryName": "datatables-itrequests",
+    "libraryId": "9349aba8-faee-424d-a84d-da18baf1ac3a",
+    "packageManager": "npm",
+    "componentType": "webpart"
+  }
+}
