@@ -4,7 +4,7 @@ import sequelize from 'sequelize';
 export const dados:Sequelize= new Sequelize(
     'complete-typescript-course', 
     'postgres',
-    '20121993',
+    'senha',
     {host: 'localhost',
      port:5432, 
      dialect: 'postgres'}
